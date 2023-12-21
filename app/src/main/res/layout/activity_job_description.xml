@@ -1,0 +1,138 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Company Name -->
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Company Name:"/>
+        <TextView
+            android:id="@+id/ComName"
+            style="@style/CustomEditText"
+            android:text="Alpha"/>
+
+        <!-- Company Description -->
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Company Description:"/>
+        <TextView
+            android:id="@+id/ComDesc"
+            style="@style/CustomEditText"
+            android:text="A leading company in..."/>
+
+        <!-- Other TextViews and EditTexts... -->
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Location:"/>
+        <TextView
+            android:id="@+id/ComLoc"
+            style="@style/CustomEditText"
+            android:text="Halifax, Canada"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Field:"/>
+        <TextView
+            android:id="@+id/ComFie"
+            style="@style/CustomEditText"
+            android:text=" Software Development"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Title: "/>
+        <TextView
+            android:id="@+id/JobTit"
+            style="@style/CustomEditText"
+            android:text="Software Engineer"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Duration: "/>
+        <TextView
+            android:id="@+id/JobDur"
+            style="@style/CustomEditText"
+            android:text="3 months"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Hours: "/>
+        <TextView
+            android:id="@+id/JobHour"
+            style="@style/CustomEditText"
+            android:text="Full-time"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Roles and Responsibilities: "/>
+        <TextView
+            android:id="@+id/JobRR"
+            style="@style/CustomEditText"
+            android:text="Developing and maintaining..."/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Qualifications: "/>
+        <TextView
+            android:id="@+id/JobQua"
+            style="@style/CustomEditText"
+            android:text="Bachelor's degree in Computer Science"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Hourly Pay: "/>
+        <TextView
+            android:id="@+id/JobPay"
+            style="@style/CustomEditText"
+            android:text="$20.00"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Application Deadline: "/>
+        <TextView
+            android:id="@+id/JobDL"
+            style="@style/CustomEditText"
+            android:text="2023-12-31"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Required Documents: "/>
+        <TextView
+            android:id="@+id/JobRD"
+            style="@style/CustomEditText"
+            android:text="Resume, Cover Letter"/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Submission Instructions:"/>
+        <TextView
+            android:id="@+id/JobSI"
+            style="@style/CustomEditText"
+            android:text="Submit applications via email.."/>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Employer Contact Info: "/>
+        <TextView
+            android:id="@+id/ComCon"
+            style="@style/CustomEditText"
+            android:text="contact@xyzcorp.com"/>
+
+        <Button
+            android:id="@+id/applyJobButton"
+            android:text="Apply for the job"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+</ScrollView>

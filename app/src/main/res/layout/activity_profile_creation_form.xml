@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileCreationFormActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/profileCreationFormScrollView"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/profileCreationFormTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="10dp"
+                android:text="Profile Creation Form"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profilePictureUploadBoxTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Profile Picture"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/uploadProfilePictureButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints="click here to upload image"
+                android:text="Upload Profile Picture"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/nameFieldTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Full Name"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/pronounsFieldTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Pronouns"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pronounsField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bioFieldTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Bio"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/bioField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/emailFieldTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Email"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/phoneNumberFieldTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Phone No."
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phoneNumberField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/yearOfStudySpinnerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Year of Study"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/yearOfStudySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years_of_study" />
+
+            <TextView
+                android:id="@+id/programSpinnerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Program of Study"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/programSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/programs_of_study" />
+
+            <TextView
+                android:id="@+id/projectFieldsTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Academic Project 1"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/projectNameField1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Name" />
+
+            <EditText
+                android:id="@+id/projectCourseField1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Course"/>
+
+            <EditText
+                android:id="@+id/projectDescriptionField1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Project's Description" />
+
+            <TextView
+                android:id="@+id/projectFieldsTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Academic Project 2"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/projectNameField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Name" />
+
+            <EditText
+                android:id="@+id/projectCourseField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Course" />
+
+            <EditText
+                android:id="@+id/projectDescriptionField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Project's Description" />
+
+            <TextView
+                android:id="@+id/projectFieldsTitle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Academic Project 3"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/projectNameField3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Name" />
+
+            <EditText
+                android:id="@+id/projectCourseField3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Course" />
+
+            <EditText
+                android:id="@+id/projectDescriptionField3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Project's Description" />
+
+            <TextView
+                android:id="@+id/projectFieldsTitle4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Academic Project 4"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/projectNameField4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Name" />
+
+            <EditText
+                android:id="@+id/projectCourseField4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Project's Course" />
+
+            <EditText
+                android:id="@+id/projectDescriptionField4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Project's Description" />
+
+            <TextView
+                android:id="@+id/workExperienceFieldsTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Work Experience 1"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/workExperienceEmployerNameField1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Employer Name" />
+
+            <EditText
+                android:id="@+id/workExperiencePositionTitleField1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Position Title" />
+
+            <EditText
+                android:id="@+id/workExperienceJobDescriptionField1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Job Description" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartMonthSpinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months1" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartYearSpinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years1" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndMonthSpinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months2" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndYearSpinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years2" />
+
+            <TextView
+                android:id="@+id/workExperienceFieldsTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Work Experience 2"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/workExperienceEmployerNameField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Employer Name" />
+
+            <EditText
+                android:id="@+id/workExperiencePositionTitleField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Position Title" />
+
+            <EditText
+                android:id="@+id/workExperienceJobDescriptionField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Job Description" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartMonthSpinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months1" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartYearSpinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years1" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndMonthSpinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months2" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndYearSpinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years2" />
+
+            <TextView
+                android:id="@+id/workExperienceFieldsTitle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Work Experience 3"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/workExperienceEmployerNameField3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Employer Name" />
+
+            <EditText
+                android:id="@+id/workExperiencePositionTitleField3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Position Title" />
+
+            <EditText
+                android:id="@+id/workExperienceJobDescriptionField3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Job Description" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartMonthSpinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months1" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartYearSpinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years1" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndMonthSpinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months2" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndYearSpinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years2" />
+
+            <TextView
+                android:id="@+id/workExperienceFieldsTitle4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Work Experience 4"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/workExperienceEmployerNameField4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Employer Name" />
+
+            <EditText
+                android:id="@+id/workExperiencePositionTitleField4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:hint="Enter Position Title" />
+
+            <EditText
+                android:id="@+id/workExperienceJobDescriptionField4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:hint="Enter Job Description" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartMonthSpinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months1" />
+
+            <Spinner
+                android:id="@+id/workExperienceStartYearSpinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years1" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndMonthSpinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/months2" />
+
+            <Spinner
+                android:id="@+id/workExperienceEndYearSpinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="50dp"
+                android:ems="10"
+                android:minHeight="45dp"
+                android:textSize="18sp"
+                android:entries="@array/years2" />
+
+            <Button
+                android:id="@+id/createProfileButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="100dp"
+                android:autofillHints="click here to upload image"
+                android:text="Create Profile"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Company Name:"/>
+        <EditText
+            android:id="@+id/postCom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Company Description:"/>
+        <EditText
+            android:id="@+id/postComDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Location:"/>
+        <EditText
+            android:id="@+id/postComLoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Field:"/>
+        <EditText
+            android:id="@+id/postJobField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Title:"/>
+        <EditText
+            android:id="@+id/postJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Duration:"/>
+        <EditText
+            android:id="@+id/postJobDur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Job Hours:"/>
+        <EditText
+            android:id="@+id/postJobHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Roles and Responsibilities:"/>
+        <EditText
+            android:id="@+id/postJobRR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Qualifications:"/>
+        <EditText
+            android:id="@+id/postJobQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Hourly Pay:"/>
+        <EditText
+            android:id="@+id/postJobPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Application Deadline:"/>
+        <EditText
+            android:id="@+id/postJobD"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Required Documents:"/>
+        <EditText
+            android:id="@+id/postRD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Submission Instructions:"/>
+        <EditText
+            android:id="@+id/postSI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="Employer Contact Info:"/>
+        <EditText
+            android:id="@+id/postComCon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <Button
+            android:id="@+id/postJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Job">
+        </Button>
+
+    </LinearLayout>
+</ScrollView>

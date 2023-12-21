@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".ReviewMain">
+
+    <EditText
+        android:id="@+id/EmpName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employer" />
+
+    <EditText
+        android:id="@+id/LocName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmpName"
+        android:layout_marginTop="16dp"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/ReviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LocName"
+        android:layout_marginTop="16dp"
+        android:hint="Review" />
+
+    <RatingBar
+        android:id="@+id/Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ReviewText"
+        android:layout_marginTop="16dp"
+        android:numStars="5" />
+
+    <Button
+        android:id="@+id/Addbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rating"
+        android:layout_marginTop="16dp"
+        android:text="Add Review" />
+
+    <Button
+        android:id="@+id/Showbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Addbtn"
+        android:layout_marginTop="16dp"
+        android:text="Show Reviews" />
+</RelativeLayout>

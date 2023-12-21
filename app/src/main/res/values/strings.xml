@@ -1,0 +1,399 @@
+<resources>
+    <string name="app_name">JobBoost</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+
+    <!--String array containing the years of study a student can be in.-->
+    <string-array name="years_of_study">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+        <item>Recent Graduate</item>
+    </string-array>
+
+    <!--String array containing all the graduate and undergraduate programs offered by Dalhousie
+    University. This list was retrieved from https://www.dal.ca/academics/programs.html -->
+    <string-array name="programs_of_study">
+        <item>Accounting (Undergraduate)</item>
+        <item>Acting (Undergraduate)</item>
+        <item>Actuarial Science (Undergraduate)</item>
+        <item>Agriculture (Graduate)</item>
+        <item>Agricultural Business (Undergraduate)</item>
+        <item>Agricultural Economics (Undergraduate)</item>
+        <item>Animal Science (Undergraduate)</item>
+        <item>Applied Computer Science (Undergraduate)</item>
+        <item>Applied Computer Science (Graduate)</item>
+        <item>Aquaculture (Undergraduate)</item>
+        <item>Architecture (Graduate)</item>
+        <item>Architecture (Professional)</item>
+        <item>Arabic Studies (Undergraduate)</item>
+        <item>Biochemistry and Molecular Biology (Undergraduate)</item>
+        <item>Biochemistry and Molecular Biology (Graduate)</item>
+        <item>Biological Engineering (Graduate)</item>
+        <item>Biology (Undergraduate)</item>
+        <item>Biology (Graduate)</item>
+        <item>Biomedical Engineering (Graduate)</item>
+        <item>Bioveterinary Science (Undergraduate)</item>
+        <item>Black and African Diaspora Studies (Undergraduate)</item>
+        <item>Business (Undergraduate)</item>
+        <item>Business (Graduate)</item>
+        <item>Business Administration (Graduate)</item>
+        <item>Business Management (Undergraduate)</item>
+        <item>Canadian Studies (Undergraduate)</item>
+        <item>Chemical Engineering (Undergraduate)</item>
+        <item>Chemical Engineering (Graduate)</item>
+        <item>Chemistry (Undergraduate)</item>
+        <item>Chemistry (Graduate)</item>
+        <item>Chinese Studies (Undergraduate)</item>
+        <item>Cinema and Media Studies (Undergraduate)</item>
+        <item>Civil Engineering (Undergraduate)</item>
+        <item>Civil and Resource Engineering (Graduate)</item>
+        <item>Civil Engineering and Planning (Graduate)</item>
+        <item>Classics (Undergraduate)</item>
+        <item>Classics (Graduate)</item>
+        <item>Clinical Vision Science (Graduate)</item>
+        <item>Commerce (Undergraduate)</item>
+        <item>Communication Sciences and Disorders (Graduate)</item>
+        <item>Community Design (Undergraduate)</item>
+        <item>Community Health and Epidemiology (Graduate)</item>
+        <item>Computational Biology and Bioinformatics (Graduate)</item>
+        <item>Computer Science (Undergraduate)</item>
+        <item>Computer Science (Graduate)</item>
+        <item>Contemporary Studies (Undergraduate)</item>
+        <item>Costume Studies (Undergraduate)</item>
+        <item>Creative Writing (Undergraduate)</item>
+        <item>Diagnostic Medical Ultrasound (Undergraduate)</item>
+        <item>Digital Innovation (Graduate)</item>
+        <item>Dental Hygiene (Professional)</item>
+        <item>Dentistry (Professional)</item>
+        <item>Early Modern Studies (Undergraduate)</item>
+        <item>Earth Sciences (Undergraduate)</item>
+        <item>Earth and Environmental Sciences (Graduate)</item>
+        <item>Economics (Undergraduate)</item>
+        <item>Economics (Graduate)</item>
+        <item>Electrical Engineering (Undergraduate)</item>
+        <item>Electrical Engineering (Graduate)</item>
+        <item>Engineering Mathematics (Graduate)</item>
+        <item>English (Undergraduate)</item>
+        <item>English (Graduate)</item>
+        <item>Entrepreneurship (Undergraduate)</item>
+        <item>Entrepreneurship and Innovation (Undergraduate)</item>
+        <item>Environment, Sustainability and Society (Undergraduate)</item>
+        <item>Environmental Design Studies (Undergraduate)</item>
+        <item>Environmental Engineering (Undergraduate)</item>
+        <item>Environmental Engineering (Graduate)</item>
+        <item>Environmental Science (Undergraduate)</item>
+        <item>Environmental Sciences (Undergraduate)</item>
+        <item>Environmental Studies (Graduate)</item>
+        <item>European Studies (Undergraduate)</item>
+        <item>Finance (Undergraduate)</item>
+        <item>Food Science and Technology (Graduate)</item>
+        <item>French (Undergraduate)</item>
+        <item>French (Graduate)</item>
+        <item>Gender and Womens Studies (Undergraduate)</item>
+        <item>German (Undergraduate)</item>
+        <item>German (Graduate)</item>
+        <item>Health (Graduate)</item>
+        <item>Health Administration (Graduate)</item>
+        <item>Health Promotion (Undergraduate)</item>
+        <item>Health Promotion (Graduate)</item>
+        <item>Health Sciences (Undergraduate)</item>
+        <item>History (Undergraduate)</item>
+        <item>History (Graduate)</item>
+        <item>History of Science and Technology (Undergraduate)</item>
+        <item>Indigenous Studies (Undergraduate)</item>
+        <item>Industrial Engineering  (Undergraduate)</item>
+        <item>Industrial Engineering  (Graduate)</item>
+        <item>Information (Graduate)</item>
+        <item>Information Management (Graduate)</item>
+        <item>Integrated Environmental Management (Undergraduate)</item>
+        <item>Integrated Science (Undergraduate)</item>
+        <item>Interdisciplinary PhD (Graduate)</item>
+        <item>International Business (Undergraduate)</item>
+        <item>International Development Studies (Undergraduate)</item>
+        <item>International Development Studies (Graduate)</item>
+        <item>International Food Business (Undergraduate)</item>
+        <item>Internetworking (Undergraduate)</item>
+        <item>Italian Studies (Undergraduate)</item>
+        <item>Journalism (Graduate)</item>
+        <item>Journalism Studies (Undergraduate)</item>
+        <item>Kinesiology (Undergraduate)</item>
+        <item>Kinesiology (Graduate)</item>
+        <item>Landscape Architecture (Undergraduate)</item>
+        <item>Law (Graduate)</item>
+        <item>Law (Professional)</item>
+        <item>Law, Justice and Society (Undergraduate)</item>
+        <item>Leadership and Organizations (Undergraduate)</item>
+        <item>Leisure Studies (Graduate)</item>
+        <item>Managed Landscapes (Undergraduate)</item>
+        <item>Management (Undergraduate)</item>
+        <item>Managing Data and Information (Undergraduate)</item>
+        <item>Managing People and Organizations (Undergraduate)</item>
+        <item>Marine Biology (Undergraduate)</item>
+        <item>Marine Management (Graduate)</item>
+        <item>Marketing Management (Undergraduate)</item>
+        <item>Materials Engineering (Graduate)</item>
+        <item>Mathematics (Undergraduate)</item>
+        <item>Mathematics (Graduate)</item>
+        <item>Mechanical Engineering (Undergraduate)</item>
+        <item>Mechanical Engineering (Graduate)</item>
+        <item>Medical Sciences (Undergraduate)</item>
+        <item>Medical Neuroscience (Graduate)</item>
+        <item>Medical Physics (Graduate)</item>
+        <item>Medical Research (Graduate)</item>
+        <item>Medicine (Professional)</item>
+        <item>Meteorology (Undergraduate)</item>
+        <item>Microbiology and Immunology (Undergraduate)</item>
+        <item>Microbiology and Immunology (Graduate)</item>
+        <item>Mineral Resource Engineering (Graduate)</item>
+        <item>Music (Undergraduate)</item>
+        <item>Musicology (Graduate)</item>
+        <item>Neuroscience (Undergraduate)</item>
+        <item>Nuclear Medicine Technology (Undergraduate)</item>
+        <item>Nursing (Undergraduate)</item>
+        <item>Nursing (Graduate)</item>
+        <item>Occupational Science (Graduate)</item>
+        <item>Occupational Therapy Entry Level (Graduate)</item>
+        <item>Oceanography (Graduate)</item>
+        <item>Oral and Maxillofacial Surgery (Graduate)</item>
+        <item>Ocean Sciences (Undergraduate)</item>
+        <item>Pathology (Graduate)</item>
+        <item>Periodontics (Graduate)</item>
+        <item>Pharmaceutical Science (Graduate)</item>
+        <item>Pharmacy (Professional)</item>
+        <item>Pharmacology (Graduate)</item>
+        <item>Philosophy (Undergraduate)</item>
+        <item>Philosophy (Graduate)</item>
+        <item>Physics and Atmospheric Science (Undergraduate)</item>
+        <item>Physics and Atmospheric Science (Graduate)</item>
+        <item>Physiology and Biophysics (Graduate)</item>
+        <item>Physiotherapy (Graduate)</item>
+        <item>Planning (Graduate)</item>
+        <item>Plant Science (Undergraduate)</item>
+        <item>Political Science (Undergraduate)</item>
+        <item>Political Science (Graduate)</item>
+        <item>Pre‑Veterinary Medicine (Undergraduate)</item>
+        <item>Prosthodontics (Graduate)</item>
+        <item>Psychiatry(Graduate)</item>
+        <item>Psychology (Undergraduate)</item>
+        <item>Psychology and Neuroscience (Graduate)</item>
+        <item>Public Administration (Graduate)</item>
+        <item>Public Sector Management (Undergraduate)</item>
+        <item>Radiological Technology (Undergraduate)</item>
+        <item>Recreation (Undergraduate)</item>
+        <item>Recreation Management (Undergraduate)</item>
+        <item>Religious Studies (Undergraduate)</item>
+        <item>Resource and Environmental Management (Graduate)</item>
+        <item>Respiratory Therapy (Undergraduate)</item>
+        <item>Russian Studies (Undergraduate)</item>
+        <item>Scenography (Undergraduate)</item>
+        <item>Security Studies (Undergraduate)</item>
+        <item>Small Business Management (Undergraduate)</item>
+        <item>Social Anthropology (Graduate)</item>
+        <item>Social Work (Graduate)</item>
+        <item>Social Work (Professional)</item>
+        <item>Sociology (Graduate)</item>
+        <item>Sociology and Social Anthropology (Undergraduate)</item>
+        <item>Spanish and Latin American Studies (Undergraduate)</item>
+        <item>Stage Design and Technical Theatre (Undergraduate)</item>
+        <item>Statistics (Undergraduate)</item>
+        <item>Statistics (Graduate)</item>
+        <item>Supply Chain and Logistics Management (Undergraduate)</item>
+        <item>Theatre (Undergraduate)</item>
+        <item>Theatre Studies (Undergraduate)</item>
+        <item>Veterinary Technology (Undergraduate)</item>
+    </string-array>
+
+    <!--String array containing a list of all the months in a year.-->
+    <string-array name="months1">
+        <item>Choose Job Start Month...</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!--String array containing a list of all the years from 1950 to 2023.-->
+    <string-array name="years1">
+        <item>Choose Job Start Year...</item>
+        <item>1950</item>
+        <item>1951</item>
+        <item>1952</item>
+        <item>1953</item>
+        <item>1954</item>
+        <item>1955</item>
+        <item>1956</item>
+        <item>1957</item>
+        <item>1958</item>
+        <item>1959</item>
+        <item>1960</item>
+        <item>1961</item>
+        <item>1962</item>
+        <item>1963</item>
+        <item>1964</item>
+        <item>1965</item>
+        <item>1966</item>
+        <item>1967</item>
+        <item>1968</item>
+        <item>1969</item>
+        <item>1970</item>
+        <item>1971</item>
+        <item>1972</item>
+        <item>1973</item>
+        <item>1974</item>
+        <item>1975</item>
+        <item>1976</item>
+        <item>1977</item>
+        <item>1978</item>
+        <item>1979</item>
+        <item>1980</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+
+    <!--String array containing a list of all the months in a year.-->
+    <string-array name="months2">
+        <item>Choose Job End Month...</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!--String array containing a list of all the years from 1950 to 2023.-->
+    <string-array name="years2">
+        <item>Choose Job End Year...</item>
+        <item>1950</item>
+        <item>1951</item>
+        <item>1952</item>
+        <item>1953</item>
+        <item>1954</item>
+        <item>1955</item>
+        <item>1956</item>
+        <item>1957</item>
+        <item>1958</item>
+        <item>1959</item>
+        <item>1960</item>
+        <item>1961</item>
+        <item>1962</item>
+        <item>1963</item>
+        <item>1964</item>
+        <item>1965</item>
+        <item>1966</item>
+        <item>1967</item>
+        <item>1968</item>
+        <item>1969</item>
+        <item>1970</item>
+        <item>1971</item>
+        <item>1972</item>
+        <item>1973</item>
+        <item>1974</item>
+        <item>1975</item>
+        <item>1976</item>
+        <item>1977</item>
+        <item>1978</item>
+        <item>1979</item>
+        <item>1980</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+</resources>

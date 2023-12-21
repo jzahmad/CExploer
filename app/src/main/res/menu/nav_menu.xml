@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/chatgpt"
+            android:title="ChatGPT"/>
+        <item
+            android:id="@+id/Resume"
+            android:title="Resume Generation"/>
+        <item
+            android:id="@+id/searchFilter"
+            android:title="Search and Filter"/>
+        <item
+            android:id="@+id/posting"
+            android:title="Job Posting"/>
+        <item
+            android:id="@+id/Review"
+            android:title="Review"/>
+        <item
+            android:id="@+id/Settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out"/>
+    </group>
+</menu>
