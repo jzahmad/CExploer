@@ -51,22 +51,6 @@ NOTES REGARDING CHATBOT FUNCTIONALITY IN APPLICATION:
 
 - For Search and Filter function, we must notice that when we create the job, please set up the job_duration as "Intern" or "CO-OP" since this app only has these 2 kinds of jobs. Therefore, if you click on the "Intern" or "CO-OP" button on the Search and Filter page. For Search and Filter function, after users input something or click the buttons, it will show the Company Name, Job Title, Job Responsibilities, and Company Contact Information in RecyclerView [7] [8] [9].
 
-## Collaborators
-
-- Ferwa Tariq - B00856522 - fr830827@dal.ca
-- Jazib Ahmad - B00889804 - jz346475@dal.ca
-- Dina Elsebai - B00711254 - dn865276@dal.ca
-- Yiming Huang - B00832882 - ym711507@dal.ca
-- Khaled Alasmawy - B00776915- Kh912474@dal.ca
-- Hasnain Ghadiali - B00841942 - hs545026@dal.ca
-- Ram Tejesh Reddy - B00884234 - rm944492@dal.ca
-
-
-## Link to Git Repo
-https://git.cs.dal.ca/ftariq/mobile-computing-project
-Professor Shehzeen and TAs Reza and Rahul added as maintainers in the git repo
-
-
 
 
 
