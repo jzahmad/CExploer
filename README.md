@@ -1,4 +1,4 @@
-# Mobile Computing Project - Undergrad Group 9 
+# Mobile Computing Project - Undergrad
 
 REFERENCES:
 [1] H. Dodenhof, "CircleImageView," GitHub, [Online]. Available: https://github.com/hdodenhof/CircleImageView. Accessed on: November 14, 2023.
