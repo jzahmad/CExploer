@@ -1,6 +1,101 @@
-# Mobile Computing Project
+## JobBoost - A Job Search and Resume Building App for Students
 
-REFERENCES:
+JobBoost is a mobile application designed for students to search for jobs, build resumes, and connect with potential
+employers. The app provides a user-friendly interface for students to manage their profiles, search and filter job
+postings, and build professional resumes.
+
+### Features
+
+* **Student Profile Management:**
+* Create and edit user profiles with personal information, academic background, work experience, and skills.
+* Upload profile pictures for a personalized touch.
+* **Job Search and Filter:**
+* Search for relevant job postings based on keywords, location, job field, and duration.
+* Filter job results by various criteria like job title, company name, and application deadline.
+* **Job Posting Details:**
+* View detailed information about each job posting, including company description, responsibilities, qualifications,
+pay, and application instructions.
+* Apply for jobs directly through the app (currently using a placeholder URL for demonstration).
+* **Resume Builder:**
+* Create professional-looking resumes with different templates (Minimalist, Clean, Executive).
+* Fill in personal details, work experience, education, and portfolio information.
+* Generate PDF resumes that can be saved and shared.
+* **Chatbot (ChatGPT):**
+* Access the ChatGPT platform directly within the app to get assistance with resumes, cover letters, interview
+preparation, and more.
+* **Review System:**
+* Allow students to leave reviews on companies and employers.
+* View existing reviews to gain insights about employers.
+* **Notification Settings:**
+* Enable and customize job notifications based on specific job fields or keywords.
+
+### Tech Stack
+
+* **Languages:** Kotlin, Java
+* **Framework:** Android Studio, Android SDK
+* **Libraries:**
+* CircleImageView (for profile pictures)
+* RecyclerView (for displaying job listings, resume templates, and review list)
+* SearchView (for search functionality)
+* SQLiteOpenHelper (for database management)
+* WebView (for accessing ChatGPT and job application pages)
+* SharedPreferences (for user data storage)
+* PDFDocument (for resume generation)
+* AndroidX (for modern Android development practices)
+
+### Installation and Setup
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/JobBoost.git
+```
+2. **Open the project in Android Studio:**
+* Launch Android Studio and select "Open an existing Android Studio project."
+* Navigate to the cloned repository directory and click "Open."
+3. **Install dependencies:**
+* Android Studio will automatically resolve dependencies. If you encounter any issues, ensure that you have the Android
+SDK installed and your project's `build.gradle` files are correctly configured.
+4. **Run the project:**
+* Click the green "Run" button in the toolbar.
+* Select a connected Android device or emulator.
+* The app will install and launch on the selected device or emulator.
+
+### Configuration
+
+* **Database:**
+* The app utilizes an SQLite database for storing user data and job postings.
+* You might need to configure the database file path or create the database if it doesn't exist.
+* **ChatGPT Integration:**
+* The app uses a WebView to load the ChatGPT website.
+* You might need to adjust the WebView settings to handle cookies, cache, and potentially security configurations.
+* **Job Application URL:**
+* The `ApplyJobActivity` currently uses a placeholder URL for job application.
+* You need to replace this placeholder with a real job application URL or implement a custom job application flow.
+
+### Testing
+
+* **Unit Testing:**
+* The project includes basic unit tests for some core functionalities.
+* You can extend the tests to cover more features and functionalities.
+* **UI Testing:**
+* Consider using Espresso or UI Automator for testing the user interface.
+
+### Contributing
+
+Contributions are welcome! Here's how to contribute:
+
+1. **Fork the repository.**
+2. **Create a branch for your feature or bug fix.**
+3. **Make your changes and commit them with a clear description.**
+4. **Push your changes to your fork.**
+5. **Create a pull request from your fork to the original repository.**
+
+### Licensing
+
+This project is licensed under the [MIT License](LICENSE).
+
+### REFERENCES:
+
 [1] H. Dodenhof, "CircleImageView," GitHub, [Online]. Available: https://github.com/hdodenhof/CircleImageView. Accessed on: November 14, 2023.
 
 [2] "Academic Programs," Dalhousie University, [Online]. Available: https://www.dal.ca/academics/programs.html. Accessed on: November 14, 2023.
