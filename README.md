@@ -6,34 +6,34 @@ postings, and build professional resumes.
 
 ### Features
 
-* **Student Profile Management:**
+ **Student Profile Management:**
 * Create and edit user profiles with personal information, academic background, work experience, and skills.
 * Upload profile pictures for a personalized touch.
-* **Job Search and Filter:**
+ **Job Search and Filter:**
 * Search for relevant job postings based on keywords, location, job field, and duration.
 * Filter job results by various criteria like job title, company name, and application deadline.
-* **Job Posting Details:**
+ **Job Posting Details:**
 * View detailed information about each job posting, including company description, responsibilities, qualifications,
 pay, and application instructions.
 * Apply for jobs directly through the app (currently using a placeholder URL for demonstration).
-* **Resume Builder:**
+ **Resume Builder:**
 * Create professional-looking resumes with different templates (Minimalist, Clean, Executive).
 * Fill in personal details, work experience, education, and portfolio information.
 * Generate PDF resumes that can be saved and shared.
-* **Chatbot (ChatGPT):**
+ **Chatbot (ChatGPT):**
 * Access the ChatGPT platform directly within the app to get assistance with resumes, cover letters, interview
 preparation, and more.
-* **Review System:**
+ **Review System:**
 * Allow students to leave reviews on companies and employers.
 * View existing reviews to gain insights about employers.
-* **Notification Settings:**
+ **Notification Settings:**
 * Enable and customize job notifications based on specific job fields or keywords.
 
 ### Tech Stack
 
-* **Languages:** Kotlin, Java
-* **Framework:** Android Studio, Android SDK
-* **Libraries:**
+ **Languages:** Kotlin, Java
+ **Framework:** Android Studio, Android SDK
+ **Libraries:**
 * CircleImageView (for profile pictures)
 * RecyclerView (for displaying job listings, resume templates, and review list)
 * SearchView (for search functionality)
@@ -62,22 +62,22 @@ SDK installed and your project's `build.gradle` files are correctly configured.
 
 ### Configuration
 
-* **Database:**
+ **Database:**
 * The app utilizes an SQLite database for storing user data and job postings.
 * You might need to configure the database file path or create the database if it doesn't exist.
-* **ChatGPT Integration:**
+ **ChatGPT Integration:**
 * The app uses a WebView to load the ChatGPT website.
 * You might need to adjust the WebView settings to handle cookies, cache, and potentially security configurations.
-* **Job Application URL:**
+ **Job Application URL:**
 * The `ApplyJobActivity` currently uses a placeholder URL for job application.
 * You need to replace this placeholder with a real job application URL or implement a custom job application flow.
 
 ### Testing
 
-* **Unit Testing:**
+ **Unit Testing:**
 * The project includes basic unit tests for some core functionalities.
 * You can extend the tests to cover more features and functionalities.
-* **UI Testing:**
+ **UI Testing:**
 * Consider using Espresso or UI Automator for testing the user interface.
 
 ### Contributing
@@ -89,10 +89,6 @@ Contributions are welcome! Here's how to contribute:
 3. **Make your changes and commit them with a clear description.**
 4. **Push your changes to your fork.**
 5. **Create a pull request from your fork to the original repository.**
-
-### Licensing
-
-This project is licensed under the [MIT License](LICENSE).
 
 ### REFERENCES:
 
